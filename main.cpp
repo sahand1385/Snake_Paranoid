@@ -12,7 +12,7 @@ void printC(){
      for(int i=0;i<strlen( creditln1);i++)
      {
              cout<<creditln1[i];
-             Sleep(20);
+             delay(20);
      }
      cout<<"\n\t       ";
      system("pause");
@@ -49,7 +49,7 @@ void meno(){
     cout<<"\t**** 3- Help                           ***\n";
     cout<<"\t**** 4- Creator                        ***\n";
     cout<<"\t******************************************\n";
-    cout<<"\t*** Enter the number : ";
+    cout<<"\t**** Enter the number : ";
 }
 ///Made By Sahand Sabet => https://github.com/sahand1385
 int main(){
