@@ -8,7 +8,7 @@ void printC(){
      system("cls");
      int CREDIT_NUMS=50;
      char* creditln1=new char[CREDIT_NUMS];
-     creditln1="\n\tSa-Sa Game\n\t version:1.0.5\n\t  Made by: Sahand Sabet\n\t   Website: www.Sa-Sa.rzb.ir    \n\t    _____________________________";
+     creditln1="\n\tSa-Sa Game\n\t version:1.0.6\n\t  Made by: Sahand Sabet\n\t   Website: Sa-Sa.ir    \n\t    Github: github.com/sahand1385   \n\t     ______________________________";
      for(int i=0;i<strlen( creditln1);i++)
      {
              cout<<creditln1[i];
@@ -64,7 +64,7 @@ int main(){
         if(mainmenu==1){
             initwindow(800,600);
             settextstyle(3,4,4);
-            outtextxy(560,400,"Click here&press space");
+            outtextxy(560,400,"Click Here & Press Space");
             getch();
             int bakht=0;
             for(int i=0;i<10;i+=2){
@@ -207,7 +207,7 @@ int main(){
         else if(mainmenu==2){
             initwindow(800,600);
             settextstyle(3,4,4);
-            outtextxy(560,400,"Click here&press space");
+            outtextxy(560,400,"Click Here & Press Space");
             getch();
             ///Made By Sahand Sabet => https://github.com/sahand1385
             int cy1=250,cx1=380,cy2=250,cx2=420,cy3=220,cx3=400,win=0;
