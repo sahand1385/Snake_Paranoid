@@ -80,11 +80,11 @@ int main(){
                 settextstyle(3,4,6);
                 if(i==2)
                     outtextxy(560,400,"You are in level 2");
-                if(i==4)
+                else if(i==4)
                     outtextxy(560,400,"You are in level 3");
-                if(i==6)
+                else if(i==6)
                     outtextxy(560,400,"You are in level 4");
-                if(i==8)
+                else if(i==8)
                     outtextxy(560,400,"You are in level 5");
                     ///Made By Sahand Sabet => https://github.com/sahand1385
                 while(ii<=500){
@@ -128,7 +128,7 @@ int main(){
                         cl++;
                         color=1;
                     }
-                    if(cl==15){
+                    else if(cl==15){
                         cl--;
                         color=-1;
                     }
@@ -146,15 +146,15 @@ int main(){
                         a=20;
                         b=0;
                     }
-                    if((ch2==75)&&(a==0)){
+                    else if((ch2==75)&&(a==0)){
                         a=-20;
                         b=0;
                     }
-                    if((ch2==72)&&(b==0)){
+                    else if((ch2==72)&&(b==0)){
                         a=0;
                         b=-20;
                     }
-                    if((ch2==80)&&(b==0)){
+                    else if((ch2==80)&&(b==0)){
                         a=0;
                         b=20;
                     }
