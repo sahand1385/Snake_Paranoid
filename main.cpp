@@ -2,6 +2,9 @@
 #include <iostream>
 #include <graphics.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <fstream>
 using namespace std;
 ///Made By Sahand Sabet => https://github.com/sahand1385
 void printC(){
@@ -48,6 +51,7 @@ void meno(){
     cout<<"\t**** 2- ParaNoid Game                  ***\n";
     cout<<"\t**** 3- Help                           ***\n";
     cout<<"\t**** 4- Creator                        ***\n";
+    cout<<"\t**** 5- Developer Website              ***\n";
     cout<<"\t******************************************\n";
     cout<<"\t**** Enter the number : ";
 }
@@ -354,6 +358,12 @@ int main(){
             printC();
             system("cls");
         }
+		else if(mainmenu==5){
+			char url[1000] = "http://sa-sa.ir";
+			std::fstream fs;
+			fs.open(url);
+			fs.close();
+		}
         ///Made By Sahand Sabet => https://github.com/sahand1385
         else if(mainmenu==3){
             cout<<"\n\tIn Snake game , you should eat the food & move by arrows.Whatch out!you         cant use walls very much!\n";
